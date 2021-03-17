@@ -45,7 +45,7 @@ function MapComponent() {
       points,
       bounds,
       zoom: viewPort.zoom,
-      options: { radius: 100, maxZoom: 20 }
+      options: { radius: 50, maxZoom: 14 }
     });
     return (
         <div>

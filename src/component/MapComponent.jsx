@@ -10,7 +10,7 @@ function MapComponent() {
         longtitude:-75.6903,
         width:"100vw",
         height:"100vh",
-        zoom:10
+        zoom:1
     })
     const [selectedLocation, setSelectedLocation] = useState(null);
     const mapRef = useRef();
